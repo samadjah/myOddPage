@@ -78,7 +78,7 @@ hr {
 .container {
   display: grid;
   grid-template-columns: 1, 1fr;
-  grid-template-rows:  repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
 }
 
 footer {
