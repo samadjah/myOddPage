@@ -79,8 +79,16 @@ hr {
   display: grid;
   grid-template-columns: 1, 1fr;
   grid-template-rows: repeat(3, auto);
+  gap: 8px;
 }
 
+.call-to div {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background-color: aqua;
+  clip-path: circle(50% at 50% 50%);
+}
 footer {
   background-color: #67859a;
 }
