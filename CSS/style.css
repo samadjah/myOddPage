@@ -77,9 +77,8 @@ hr {
 
 .container {
   display: grid;
-  width: 600px;
-  height: 600px;
-  background-color: #67859a;
+  grid-template-columns: 1, 1fr;
+  grid-template-rows:  repeat(3, auto);
 }
 
 footer {
