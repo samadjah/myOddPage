@@ -76,6 +76,7 @@ hr {
 }
 
 .container {
+  display: block;
   width: 600px;
   height: 600px;
   background-color: #67859a;
